@@ -1,0 +1,3 @@
+"Lag","LM_stat","p_value","Conclusion"
+5,2.9,"0.716","Effets ARCH presents"
+10,5.88,"0.8252","Effets ARCH presents"

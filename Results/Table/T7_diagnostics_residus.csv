@@ -1,0 +1,7 @@
+"Test","Statistique","p_value","Conclusion"
+"Ljung-Box Q(5)",14.55,0.0125,"Structure residuelle detectee"
+"Ljung-Box Q(10)",24.73,0.0059,"Structure residuelle detectee"
+"Ljung-Box Q(20)",30.66,0.0598,"OK (pas de structure residuelle)"
+"Ljung-Box Q2(5)",1.9,0.8633,"OK (pas de structure residuelle)"
+"Ljung-Box Q2(10)",4.34,0.9308,"OK (pas de structure residuelle)"
+"ARCH-LM(10)",3.7,0.9598,"OK (pas de structure residuelle)"

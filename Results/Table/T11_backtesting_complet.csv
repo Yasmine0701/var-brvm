@@ -1,0 +1,4 @@
+"Modele","Violations","Taux_pct","Attendu_pct","LR_Kupiec","p_Kupiec","LR_Christoffersen","p_Christoffersen"
+"Parametrique",0,0,5,5.3345,0.0209,NA,NA
+"GARCH-EVT",1,1.92,5,1.3402,0.247,NA,NA
+"Monte Carlo",1,1.92,5,1.3402,0.247,NA,NA

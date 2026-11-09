@@ -1,0 +1,3 @@
+"Serie","ADF_stat","p_value","Conclusion"
+"Prix (niveau)",-2.1513,0.5126,"Non-stationnaire (I(1))"
+"Rendements",-4.5399,0.01,"Stationnaire (I(0))"

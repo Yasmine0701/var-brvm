@@ -1,0 +1,6 @@
+"Test","Statistique","p_value","Conclusion"
+"Ljung-Box Q(5)",0.474,0.993,"Valide"
+"Ljung-Box Q(10)",5.258,0.8733,"Valide"
+"Ljung-Box Q(20)",12.95,0.8795,"Valide"
+"Ljung-Box Q2(10)",6.098,0.8069,"Valide"
+"ARCH-LM(10)",5.108,0.8838,"Valide"
