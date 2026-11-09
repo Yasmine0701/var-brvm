@@ -1,0 +1,12 @@
+Parameter,Value,Description
+lambda_ewma,0.94,Weight EWMA factor
+garch_p,1,GARCH p order
+garch_q,1,GARCH q order
+evt_threshold,0.80,EVT percentile threshold
+mc_simulations,10000,Monte Carlo simulations
+confidence_level,0.95,VaR confidence level
+bootstrap_blocks,192,Bootstrap block size
+cds_alert_low,300,CDS low alert (bps)
+cds_alert_medium,350,CDS medium alert (bps)
+cds_alert_high,400,CDS high alert (bps)
+taux_alert,6.50,Rate alert level (%)
