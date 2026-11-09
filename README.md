@@ -4,7 +4,7 @@ Estimation et backtesting de la **Value-at-Risk (VaR)** sur l'indice BRVM Compos
 
 Mémoire de Master II, Data Science, Statistique & Économétrie (INSSEDS, Abidjan, 2025-2026), accompagné d'une **application Shiny** de monitoring du risque.
 
-Dashboard de l'application : C:\Users\HP\Documents\GitHub\var-brvm\Results\Figure\shiny_app_dashboard
+![Dashboard de l'application](Results/Figure/shiny_app_dashboard.png)
 
 ---
 
@@ -45,7 +45,28 @@ Déterminer quelle approche mesure le mieux le risque de marché sur la BRVM, un
 
 **Conclusion** : les approches **GARCH-EVT et Monte Carlo** sont validées, avec des performances statistiquement équivalentes. Le bootstrap confirme ce verdict : le taux de 5 % attendu se trouve dans l'intervalle de confiance [0 % ; 5,77 %].
 
-Les tableaux complets (T1 à T18) sont dans le dossier C:\Users\HP\Documents\GitHub\var-brvm\Results\Table
+### Tableaux de résultats
+
+| N° | Tableau |
+|---|---|
+| T1 | [Statistiques descriptives](Results/Table/T1_statistiques_descriptives.csv) |
+| T2 | [Test de stationnarité ADF](Results/Table/T2_test_stationnarite_ADF.csv) |
+| T3 | [Tests de normalité](Results/Table/T3_tests_normalite.csv) |
+| T4 | [Test ARCH-LM sur les rendements](Results/Table/T4_test_ARCH_LM_rendements.csv) |
+| T5 | [Comparaison AIC / BIC](Results/Table/T5_comparaison_AIC_BIC.csv) |
+| T6 | [Paramètres GARCH(1,1)](Results/Table/T6_parametres_GARCH11.csv) |
+| T7 | [Diagnostics des résidus](Results/Table/T7_diagnostics_residus.csv) |
+| T8 | [Persistance de la volatilité](Results/Table/T8_persistance_volatilite.csv) |
+| T9 | [Paramètres EVT](Results/Table/T9_parametres_EVT.csv) |
+| T10 | [VaR 95 % des trois modèles](Results/Table/T10_VaR_95_trois_modeles.csv) |
+| T11 | [Backtesting complet](Results/Table/T11_backtesting_complet.csv) |
+| T12 | [Robustesse par bootstrap](Results/Table/T12_bootstrap_robustesse.csv) |
+| T13 | [Paramètres AR-GARCH-t](Results/Table/T13_parametres_AR1_GARCH_t.csv) |
+| T14 | [Diagnostics AR-GARCH-t](Results/Table/T14_diagnostics_AR1_GARCH_t.csv) |
+| T15 | [VaR du modèle final](Results/Table/T15_VaR_modele_final.csv) |
+| T16 | [Paramètres du modèle final](Results/Table/T16_parametres_modele_final.csv) |
+| T17 | [Diagnostics du modèle final](Results/Table/T17_diagnostics_modele_final.csv) |
+| T18 | [VaR et backtesting du modèle final](Results/Table/T18_VaR_backtesting_final.csv) |
 
 ## Application Shiny
 
