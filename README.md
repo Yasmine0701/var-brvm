@@ -4,7 +4,7 @@ Estimation et backtesting de la **Value-at-Risk (VaR)** sur l'indice BRVM Compos
 
 Mémoire de Master II, Data Science, Statistique & Économétrie (INSSEDS, Abidjan, 2025-2026), accompagné d'une **application Shiny** de monitoring du risque.
 
-Dashboard de l'application : [C:\Users\HP\Documents\GitHub\var-brvm\Results\Figure\shiny_app_dashboard]
+Dashboard de l'application : C:\Users\HP\Documents\GitHub\var-brvm\Results\Figure\shiny_app_dashboard
 
 ---
 
@@ -45,7 +45,7 @@ Déterminer quelle approche mesure le mieux le risque de marché sur la BRVM, un
 
 **Conclusion** : les approches **GARCH-EVT et Monte Carlo** sont validées, avec des performances statistiquement équivalentes. Le bootstrap confirme ce verdict : le taux de 5 % attendu se trouve dans l'intervalle de confiance [0 % ; 5,77 %].
 
-Les tableaux complets (T1 à T18) sont dans le dossier [C:\Users\HP\Documents\GitHub\var-brvm\Results\Table]
+Les tableaux complets (T1 à T18) sont dans le dossier C:\Users\HP\Documents\GitHub\var-brvm\Results\Table
 
 ## Application Shiny
 
